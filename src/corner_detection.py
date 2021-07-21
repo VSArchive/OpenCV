@@ -1,5 +1,5 @@
-import numpy
 import cv2
+import numpy
 
 # Read Image
 img = cv2.imread("../assets/chessboard.png", -1)
