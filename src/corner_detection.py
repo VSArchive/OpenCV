@@ -2,7 +2,7 @@ import cv2
 import numpy
 
 # Read Image
-img = cv2.imread("../assets/chessboard.png", -1)
+img = cv2.imread("../assets/lake.png", -1)
 
 # Convert to Gray
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
